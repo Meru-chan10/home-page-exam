@@ -134,7 +134,7 @@ h5{
 
 #merch
 {
-    margin-top: 15em;
+    margin-top: 10em;
     height: 100vh;
 }
 
@@ -162,13 +162,19 @@ h5{
 
 .custom-footer-color
 {
-    background: rgba( 0, 88, 138, 0.45 );
+    background: rgba(50, 129, 175, 0.718);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
    
+}
+
+.#inline-text
+{
+  text-decoration: none;
+  color: white !important;
 }
 
 .responsive-iframe {
