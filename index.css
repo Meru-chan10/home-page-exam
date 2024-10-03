@@ -157,7 +157,7 @@ h5{
 
 #trailer
 {
-    height: 100vh;
+    margin-top: 1em;
 }
 
 .custom-footer-color
@@ -196,10 +196,24 @@ h5{
         padding: 210px;
       }
 
-      .responsive-iframe {
-        margin:100 em
+      #trailer {
+        margin-top:100 em;
       }
  
+}
+
+@media (min-width: 800px) {
+  #hero {
+      max-width: 100vw;
+      max-height: 100vh;
+      margin: 0;
+      padding: 210px;
+    }
+
+    #trailer {
+      margin-top:10 em;
+    }
+
 }
 
   @media (max-width: 992px) {
@@ -212,7 +226,8 @@ h5{
 
     #trailer
     {
-        margin-top: 10em;
+        margin-top: 1em;
+        height: 55vh;
     }
   }
 
@@ -231,7 +246,8 @@ h5{
 
     #trailer
     {
-        margin-top: 108em;
+        margin-top: 10em;
+        height: 60vh;
     }
   }
 
@@ -247,5 +263,38 @@ h5{
     #trailer
     {
         margin-top: 10em;
+    }
+  }
+
+
+  @media (max-width: 450px) {
+   
+    .lc-block {
+      margin-bottom: 2px;
+    }
+    .lc-block img.fluid {
+      width: 60%;
+      margin: 0 auto;
+    }
+    #trailer
+    {
+        margin-top: 110em;
+        height: 50vh;
+    }
+  }
+
+  @media (max-width: 400px) {
+   
+    .lc-block {
+      margin-bottom: 2px;
+    }
+    .lc-block img.fluid {
+      width: 60%;
+      margin: 0 auto;
+    }
+    #trailer
+    {
+        margin-top: 140em;
+        height: 60vh;
     }
   }
